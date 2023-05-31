@@ -42,3 +42,5 @@ _ipl_teams = {'csk' : 'msd', 'gt' : 'pandya', 'mi' : 'rohit', 'rcb' : 'faf'}
 _ipl_teams.clear()
 print(_ipl_teams)
 
+# ur very beautiful
+
