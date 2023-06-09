@@ -19,3 +19,17 @@ print("hi i am aditya ur big fan "  +  _full_name)
 _wife_name = 'Shakshi Singh Dhoni'
 print(_wife_name   +   "is wife of" , _full_name)
 
+_item_name = "cup"
+_item_name2 = "plate"
+_combine_items = _item_name + _item_name2
+print("we use " + _combine_items)
+
+_phone_name = "vivo"
+_sim_name = "jio"
+_product_name = _phone_name + _sim_name
+print("i have " + _product_name)
+
+_husband_name = "Aditya"
+_wife_name = "Deepika"
+_couple_name = _husband_name + _wife_name
+print("we are couple " + _couple_name)
