@@ -11,3 +11,5 @@ print(_student.count("Aditya"))
 print(_student.count("28"))
 print(_student.count("male"))
 
+# Aditya loves Deepika
+# deepika loves Aditya
