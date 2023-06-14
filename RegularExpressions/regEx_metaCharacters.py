@@ -18,7 +18,7 @@ print(f)
 
 # Using . - dot - Return a specific sequence in a string
 s = "Deepika"
-f = re.findall("De.a", s)
+f = re.findall("De..a", s)
 print(f)
 
 
