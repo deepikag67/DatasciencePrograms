@@ -32,4 +32,25 @@ sims = {"airtel", "jio", "vodafone"}
 phones_sims = phones.union(sims)
 
 
+# Sets are collections which is unordered and unindexed
+# They do not allow any duplicates value.
+# Curly brackets are used only
+# Sets are faster then list
 
+_clothes_brands = {"chanel", "nike", "adidas", "levis"}
+print(_clothes_brands)
+
+# To add we use
+_clothes_brands = {"chanel", "nike", "adidas", "levis"}
+_clothes_brands.add("gucci")
+print(_clothes_brands)
+
+# To remove we use
+_clothes_brands = {"chanel", "nike", "adidas", "levis"}
+_clothes_brands.remove("levis")
+print(_clothes_brands)
+
+# To clear all we use
+_clothes_brands = {"chanel", "nike", "adidas", "levis"}
+_clothes_brands.clear()
+print(_clothes_brands)

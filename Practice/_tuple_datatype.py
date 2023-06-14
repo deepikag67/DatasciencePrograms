@@ -13,3 +13,18 @@ print(_student.count("male"))
 
 # Aditya loves Deepika
 # deepika loves Aditya
+
+# Tuples are collection which is ordered and unchangable
+# Tuples are very similar to list
+# We use paraenthyses only.
+
+_furnitures = ("sofa", "table", "chair", "bed", "bed")
+print(_furnitures)
+print(_furnitures.count("bed"))
+print(_furnitures.index("bed"))
+print(_furnitures.index("table"))
+for x in _furnitures:
+    print(x)
+
+    if "sofa" in _furnitures:
+        print("sofa i have")

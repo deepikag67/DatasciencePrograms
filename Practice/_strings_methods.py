@@ -42,6 +42,53 @@ print(name.replace("deepika","aditya"))
 name = "deepika"
 print(name*6)
 
+# Strings methods practice again
 
+# How we can check the lenght of datatype
 
+_couples_name = "aditya and deepika"
+print(len(_couples_name))
 
+# To find anything
+_couples_name = "aditya and deepika"
+print(_couples_name.find("i",))
+print(_couples_name.find("k",))
+
+# To convert first letter into capital letter
+_couples_name = "aditya and deepika"
+print(_couples_name.capitalize())
+
+# To convert everything into upper case
+_couples_name = "aditya and deepika"
+print(_couples_name.upper())
+
+# To convert in lower case
+_couples_name = "ADITYA AND DEEPIKA"
+print(_couples_name.lower())
+
+# To check digits are there or not
+_couples_name = "ADITYA AND DEEPIKA"
+print(_couples_name.isdigit())
+_couples_name = "ADITYA AND DEEPIKA 007"
+print(_couples_name.isdigit())
+_couples_name = "123456789"
+print(_couples_name.isdigit())
+
+# To check alphabetical number
+_couples_name = "ADITYA AND DEEPIKA"
+print(_couples_name.isalpha())
+_couples_name = "aditya"
+print(_couples_name.isalpha())
+
+# To count we use
+_couples_name = "ADITYA AND DEEPIKA"
+print(_couples_name.count("K"))
+print(_couples_name.count("A"))
+
+# To replace anything
+_couples_name = "ADITYA AND DEEPIKA"
+print(_couples_name.replace("I", "A"))
+
+# To multiply anything
+_couples_name = "ADITYA AND DEEPIKA"
+print(_couples_name * 6)
