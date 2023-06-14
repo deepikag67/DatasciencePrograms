@@ -18,7 +18,11 @@ print(f)
 
 # Using . - dot - Return a specific sequence in a string
 s = "Deepika"
+<<<<<<< HEAD
 f = re.findall("De..a", s)
+=======
+f = re.findall("De.a", s)
+>>>>>>> 64c2199aa6b5fe5ec00489a0a6f2600f8bae4d79
 print(f)
 
 
