@@ -37,12 +37,31 @@ print(f)
 
 
 #\n Returns the new line
+s = "Deepika@DESKTOP-V34\nC1IL78787"
+print(s)
+
+
 #\b Returns the boundary of the string
-#\a returns alarm
+s = "One Ninja"
+f = re.findall(r'One\b', s)
+print(f)
+
+
+#\b Returns the boundary of the string
+s = "OneNinja"
+f = re.findall(r"One\B", s)
+print(f)
+
+
+#\A -  returns the beginning character of the string
+s = "OneNinja"
+f = re.findall(r"\AO", s)
+print(f)
+
 
 
 # \0 returns null character
-s = "Deepika@DESK TOP-V34C1I L78787"
+s = "0Deepika@DESK TOP-V34C1I L78787"
 f = re.findall("\0", s)
 print(f)
 
