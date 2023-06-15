@@ -21,3 +21,5 @@ f = open("C://Technology//DevOps//Steps//aditya.txt", "w")
 f.write(" Contents")
 f.close()
 
+
+
