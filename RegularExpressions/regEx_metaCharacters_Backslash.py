@@ -47,7 +47,7 @@ f = re.findall(r'One\b', s)
 print(f)
 
 
-#\b Returns the boundary of the string
+#\B Returns the boundary of the string
 s = "OneNinja"
 f = re.findall(r"One\B", s)
 print(f)

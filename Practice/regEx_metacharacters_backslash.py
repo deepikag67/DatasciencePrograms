@@ -33,3 +33,12 @@ print(f)
 c = "24/01/1997 aditya @ loves 31/01/1988 deepika"
 f = re.findall("\W", c)
 print(f)
+
+#\n Returns the new line
+c = "\n24/01/1997 aditya @ loves 31/01/1988 deepika"
+print(c)
+
+#\b Returns the boundary of the string
+c = "24/01/1997 aditya @ loves 31/01/1988 deepika"
+s = re.findall(r'\deepika', 'c')
+print(s)

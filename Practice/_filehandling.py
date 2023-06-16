@@ -34,3 +34,11 @@ f = open("C://Users//goluy//OneDrive//Desktop//gitcommand.txt")
 #f = open("C://Users//goluy//OneDrive//Documents//dips.txt", "w")
 #f.write("we both love each other insanely")
 #f.close()
+
+# Delete the file in local directory
+import os
+#f = open("C://Users//goluy//OneDrive//Documents//apfoodservice.xlsx")
+
+
+
+
