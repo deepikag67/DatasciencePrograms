@@ -96,6 +96,7 @@ _cars = ["porch", "ferrari", "bently", "roll royce", "bmw"]
 _cars.clear()
 print(_cars)
 
+
 # 2D list uses or mutli list
 _mnc = ["google", "microsoft", "tata"]
 _mnc2 = ["reliance", "infosys", "apple"]
