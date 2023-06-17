@@ -11,11 +11,7 @@ print(_student.count("Aditya"))
 print(_student.count("28"))
 print(_student.count("male"))
 
-# Aditya loves Deepika
-<<<<<<< HEAD
-# deepika loves Aditya
-=======
-# deepika loves Aditya
+
 
 # Tuples are collection which is ordered and unchangable
 # Tuples are very similar to list
@@ -31,4 +27,3 @@ for x in _furnitures:
 
     if "sofa" in _furnitures:
         print("sofa i have")
->>>>>>> 64c2199aa6b5fe5ec00489a0a6f2600f8bae4d79
