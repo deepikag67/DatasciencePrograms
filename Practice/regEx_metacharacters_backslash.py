@@ -35,10 +35,23 @@ f = re.findall("\W", c)
 print(f)
 
 #\n Returns the new line
-c = "\n24/01/1997 aditya @ loves 31/01/1988 deepika"
-print(c)
+s = "24/01/1997aditya@loves\n31/01/1988deepika"
+print(s)
+
 
 #\b Returns the boundary of the string
-c = "24/01/1997 aditya @ loves 31/01/1988 deepika"
-s = re.findall(r'\deepika', 'c')
-print(s)
+s = "24/01/1997aditya@loves31/01/1988deepika"
+f = re.findall(r'aditya\b', s)
+print(f)
+
+
+#\B Returns the boundary of the string
+s = aditya@lovesdeepika"
+f = re.findall(r"deepika\B", s)
+print(f)
+
+
+#\A -  returns the beginning character of the string
+s = "OneNinja"
+f = re.findall(r"\AO", s)
+print(f)
