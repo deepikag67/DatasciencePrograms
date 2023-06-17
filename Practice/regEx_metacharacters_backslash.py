@@ -46,12 +46,12 @@ print(f)
 
 
 #\B Returns the boundary of the string
-s = aditya@lovesdeepika"
-f = re.findall(r"deepika\B", s)
+s = "DEEPIKALOVEADITYA"
+f = re.findall(r"ADITYA\B", s)
 print(f)
 
 
 #\A -  returns the beginning character of the string
-s = "OneNinja"
-f = re.findall(r"\AO", s)
+s = "DEEPIKA"
+f = re.findall(r"\AD", s)
 print(f)
