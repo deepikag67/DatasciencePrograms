@@ -4,8 +4,9 @@
 # Ex: If the strings banana ends with a
 
 import re
-s = "orange"
-f = re.findall(r"nge$", s)
+s = "orange1"
+f = re.findall(r"nge1$", s)
+print(f)
 if f:
     print("String match found")
 else:

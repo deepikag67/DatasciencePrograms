@@ -35,35 +35,42 @@ f = re.findall("\W", s)
 print(f)
 
 
-
-#\n Returns the new line
+#\n is prints the string in new line.
+# Split the string into new line
 s = "Deepika@DESKTOP-V34\nC1IL78787"
 print(s)
 
 
-#\b Returns the boundary of the string
-s = "One Ninja"
-f = re.findall(r'One\b', s)
+#\b Returns the right boundary of the string
+# Identifies the string with common sequence of characters.
+s = "OneNinja OneNinja OneNinja OneNinja OneNinja OneNinja OneNinja OneNinja"
+f = re.findall(r'Ninja\b', s)
 print(f)
 
 
-#\B Returns the boundary of the string
-s = "OneNinja"
-f = re.findall(r"One\B", s)
+#\B Returns the right boundary of the string
+# Return only the part of the string where the string is without spaces.
+s = "OneNinjaOneNinja"
+f = re.findall(r"Ninja\B", s)
 print(f)
 
 
-#\A -  returns the beginning character of the string
-s = "OneNinja"
-f = re.findall(r"\AO", s)
+#\A -  returns the beginning character of the string but not numbers
+s = "Aditya"
+f = re.findall(r"\AA", s)
 print(f)
 
 
 
 # \0 returns null character
-s = "0Deepika@DESK TOP-V34C1I L78787"
+s = "\0"
 f = re.findall("\0", s)
-print(f)
+#print(f)
+if f:
+    print("Returns null character")
+else:
+    print("There is no null character")
+
 
 
 
