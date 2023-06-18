@@ -11,7 +11,7 @@ import re
    # print("No string match found")
    # print(d)
 
-a = "deepxloves"
+a = "deepcxloves"
 d = re.findall(r"a|f", a)
 if d:
     print("String matches with deepika or aditya")
