@@ -11,3 +11,21 @@ else:
     print("There is no string match")
 print(f)
 
+
+import re
+d = "auniverse sun"
+f = re.findall(r"^auniverse", d)
+if f:
+    print("There is a string match")
+else:
+    print("There is no string match")
+print(f)
+
+d = "Theuniverse Thesun"
+f = re.findall(r"^amoon", d)
+if f:
+    print("There is a string match")
+else:
+    print("There is no string match")
+print(f)
+

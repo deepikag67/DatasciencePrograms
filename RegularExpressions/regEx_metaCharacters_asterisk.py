@@ -12,6 +12,19 @@ empId = "AD20000T"
 f = re.findall("AD.*T", empId)
 print(f)
 
+Ifsccode = "UBIN0517489"
+f = re.findall("UB.*9", Ifsccode)
+print(f)
+
+Ifsccode = "UBIN051748936975"
+f = re.findall("UB.*I*5", Ifsccode)
+print(f)
+
+Ifsccode = "UBIN051748936975145879635"
+f = re.findall("UB.*I*5*3.+5", Ifsccode)
+print(f)
+
+
 
 
 

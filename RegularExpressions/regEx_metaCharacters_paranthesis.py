@@ -29,3 +29,39 @@ if f:
     print("String matches with a or b")
 else:
     print("No string match found")
+
+import re
+deepika = "adityaanddeppika"
+f = re.findall(r"(ad)", deepika)
+if f:
+    print("String matches with a or b")
+else:
+    print("No string match found")
+print(f)
+
+import re
+deepika = "adityaanddeppika"
+f = re.findall(r"(de)", deepika)
+if f:
+    print("String matches with a or b")
+else:
+    print("No string match found")
+print(f)
+
+import re
+deepika = "adityaanddeppika"
+f = re.findall(r"(adka)", deepika)
+if f:
+    print("String matches with a or b")
+else:
+    print("No string match found")
+print(f)
+
+import re
+deepika = "adityaanddeepika"
+f = re.findall(r"(ddeepika)", deepika)
+if f:
+    print("String matches with a or b")
+else:
+    print("No string match found")
+print(f)

@@ -72,8 +72,58 @@ else:
     print("There is no null character")
 
 
+import re
+deepika = "DEEPIKA31/01/1988@ loves-24/01/1997aditya. And ADITYA also loves Deepika"
+aditya = re.findall("\d", deepika)
+print(aditya)
+
+deepika = "DEEPIKA31/01/1988@ loves-24/01/1997aditya. And ADITYA also loves Deepika"
+aditya = re.findall("\D", deepika)
+print(aditya)
+
+
+deepika = "DEEPIKA31/01/1988@ loves-24/01/1997aditya. And ADITYA also loves Deepika"
+aditya = re.findall("\w", deepika)
+print(aditya)
+
+deepika = "DEEPIKA31/01/1988@ loves-24/01/1997aditya. And ADITYA also loves Deepika"
+aditya = re.findall("\W", deepika)
+print(aditya)
+
+deepika = "DEEPIKA31/01/1988@ loves-24/01/1997aditya. And ADITYA also loves Deepika"
+aditya = re.findall("\s", deepika)
+print(aditya)
+
+deepika = "DEEPIKA31/01/1988@ loves-24/01/1997aditya. And ADITYA also loves Deepika"
+aditya = re.findall("\S", deepika)
+print(aditya)
+
+deepika = "DEEPIKA31/01/1988@ loves-24/01/1997aditya\nAnd ADITYA also loves Deepika"
+print(deepika)
+
+deepika = "DEEPIKA31/01/1988@ loves-24/01/1997aditya. And ADITYA also loves Deepika"
+aditya = re.findall(r"loves\b", deepika)
+print(aditya)
+
+deepika = "DEEPIKA31/01/1988@ loves-24/01/1997aditya. And ADITYA also loves Deepika"
+aditya = re.findall(r"Deepika\b", deepika)
+print(aditya)
+
+deepika = "DEEPIKA31/01/1988@ loves-24/01/1997aditya. And ADITYA also loves Deepika"
+aditya = re.findall(r"aditya\b", deepika)
+print(aditya)
+
+
+deepika = "DEEPIKA31/01/1988@ loves-24/01/1997aditya. And ADITYA also loves Deepika"
+aditya = re.findall(r"ADITYA\b", deepika)
+print(aditya)
+
+deepika = "DEEPIKA31/01/1988@ loves-24/01/1997aditya. And ADITYA also loves Deepika"
+aditya = re.findall(r"Deepika\B", deepika)
+print(aditya)
 
 
 
-
-
+deepika = "DEEPIKA31/01/1988@ loves-24/01/1997aditya. And ADITYA also loves Deepika"
+aditya = re.findall(r"\AD", deepika)
+print(aditya)

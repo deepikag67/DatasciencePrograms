@@ -16,3 +16,14 @@ s = "Deepika"
 f = re.findall(r".{3}pika", s)
 print(f)
 
+s = "Adityalovesdeepika"
+f = re.findall(r"A.{17}", s)
+print(f)
+
+s = "Adityalovesdeepika"
+f = re.findall(r"l.{11}", s)
+print(f)
+
+s = "Adityalovesdeepika"
+f = re.findall(r"A.{5}", s)
+print(f)
