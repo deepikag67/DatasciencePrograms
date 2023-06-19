@@ -1,9 +1,10 @@
 # groups the sub pattern
+# Returns the sequence of the string and number of occurrences
 
 
 import re
-s = "axb avc cfda"
-f = re.findall(r"(a)", s)
+s = "axb axb axb"
+f = re.findall(r"(ax)", s)
 print(f)
 if f:
     print("String matches with a or b")
