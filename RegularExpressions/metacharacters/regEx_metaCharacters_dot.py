@@ -9,4 +9,10 @@ g = "She is best for me. I love her endlessly. I cant live without her. Because 
 d = re.findall(r"\.", g)
 print(d)
 
+import re
+a = "Vivo phones. are#good.@but-iphone are.very\good."
+d = re.findall(r"\.,", a)
+print(d)
+
+
 
