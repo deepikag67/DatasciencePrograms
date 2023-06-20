@@ -1,5 +1,5 @@
-# Metacharacters - The syntax contains special characters - [],\,.,^,$,*,(),|,{},+,?
-# Each special character identifies the string in different ways.
+# Special sequence is \ always followed by either upper or lower case character - \d,\D,\s,\S,\w,\W,\n,\b,\B,\A,\0,\Z
+# import re is importing packages for regular expression
 
 
 # Using \ - Back Slash - Return the digits/numbers in the string

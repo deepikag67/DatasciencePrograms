@@ -36,3 +36,12 @@ else:
     print("No string match found")
 print(f)
 
+
+d = "phoneandsims phoneandsims"
+f = re.findall(r"ph|si", d)
+if f:
+    print("String matches with a or b")
+else:
+    print("No string match found")
+print(f)
+

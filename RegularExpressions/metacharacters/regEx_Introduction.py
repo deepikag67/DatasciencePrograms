@@ -1,6 +1,8 @@
 # Regular Expression(RegEx/Regexes)
 # Identify the sequence of characters in a pattern
 # Matches Strings
+# MetaCharacters - [],\,,.^,$,*,+,?,{},|,()
+
 
 # Identify the character index for a string
 f = open("C://Technology//DevOps//Steps//gitcommands.txt", "r")
