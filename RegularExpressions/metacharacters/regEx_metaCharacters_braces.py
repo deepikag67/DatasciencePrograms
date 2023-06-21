@@ -27,3 +27,7 @@ print(f)
 s = "Adityalovesdeepika"
 f = re.findall(r"A.{5}", s)
 print(f)
+
+s = "Adityalovesdeepika"
+f = re.findall(r"l.{6}", s)
+print(f)
