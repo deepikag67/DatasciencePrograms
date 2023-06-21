@@ -36,3 +36,16 @@ print(R)
 
 
 
+string = "This is Python 3"
+lowercase = re.findall("[a-z]", string)
+uppercase = re.findall("[A-Z]", string)
+numbers = re.findall("[0-9]", string)
+print("lowercase : ", lowercase)
+print("uppercase : ", uppercase)
+print("numbers : ", numbers)
+
+
+import re
+a = "Python *.&^$#!@*()^%"
+d = re.findall("\.", a)
+print(d)
