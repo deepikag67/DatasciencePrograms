@@ -50,4 +50,204 @@ b = re.findall(r"Si|In", a)
 print(b)
 
 
+# To define a function that take two integers
+# and return the sum of those two numbers
+def add(a, b):
+    return a + b
 
+
+# initializing the variables
+num1 = 10
+num2 = 5
+
+# function calling and store the result into sum_of_twonumbers
+sum_of_twonumbers = add(num1, num2)
+
+# To print the result
+print("Sum of {0} and {1} is {2};".format(num1,num2, sum_of_twonumbers))
+
+
+print("Hello ", " World", sep='***')
+
+print("I'm below two lines")
+
+# code for disabling the softspace feature
+print('G','F','G')
+
+# for formatting a date
+print('09', '12', '2016', sep='-')
+
+# another example
+print('pratik', 'geeksforgeeks', sep='@')
+
+
+#print('Hello','World',end='!!!')
+
+
+print('Hello.','How are you?')
+
+
+# Numbers
+print(1)
+# Lists
+print([1, 2, 3])
+# Dictionaries
+print({'name': 'John', 'age': 36})
+# Booleans
+print(True)
+# None
+print(None)
+# Strings
+print("Hello, World")
+# Touple
+print((1, 2, 3))
+# Sets
+print({1, 2, 3})
+
+#print("Welcome to", end = ' ')
+#print("GeeksforGeeks", end= ' ')
+
+print("Hello world")
+print("Welcome to Python")
+
+
+print("Hello world!", end =" ")
+print("Welcome to Python")
+
+
+print("Python", end ="@")
+print("Home")
+
+
+#sourceFile = open('c://users//Documents//python.txt', 'r')
+#print('Hello, Python!', file = sourceFile)
+#sourceFile.close()
+
+
+
+
+
+
+
+from time import sleep
+
+#output is not flushed here
+#print("Hello, world!", end='')
+#sleep(5)
+#print("Bye!!!")
+
+
+from time import sleep
+
+# output is flushed here
+#print("Hello, world!", end='', flush= True)
+#sleep(5)
+#print("Bye!!!")
+
+print("This output will be flushed immediately", flush=True)
+
+
+import keyword
+print(keyword.kwlist)
+
+
+#checking length
+print(f"Total number of keywords: {len(keyword.kwlist)}")
+
+#1 import
+import math
+print("factorial of 5 is :", math.factorial(5))
+
+#2 elif
+# Code using elif keyword
+a = 5
+if a > 5:
+    print("a is greater than 5")
+elif a == 5:
+    print("a is equal to 5")
+else:
+    print("a is less than 5")
+
+#3 else
+# Code using else keyword
+num = 100
+if num < 1:
+    print("Number is less than 1")
+elif num < 10:
+    print("Number is less than 10")
+else:
+    print("Number is greater than or equal to 100")
+
+#4 If keyword
+#Code using if keyword
+a = 10
+if a > 5:
+    print("a is greater than 5")
+
+#5 In Keyword
+# Code to check 'in' keyword using list
+a = 10
+b = [10, 20, 30]
+c = "10"
+print(a in b)  # True
+print(c in b)  # False
+# Code to check 'in' keyword using string
+name = "John"
+print("J" in name)  # True
+print("b" in name)  # False
+
+#6 Is Keyword
+# Code to check 'is' keyword
+a = 10
+b = 10
+c = "10"
+print(a is b)  # True
+print(a is c)  # False
+print(a is not c)  # True
+
+#7 pass keyword
+def message():
+    pass
+class Person:
+    pass
+
+#7 with keyword
+# using with keyword
+
+#with open("C://Technology//python.txt", "w") as file:
+ #file.write("Hello World!")
+
+# 8 yield keyword
+# using yield keyword
+def nameslist():
+     yield "John"
+     yield "Sara"
+     yield "Mike"
+     yield "Molly"
+names = nameslist()
+# using next() function to get the next value
+print(next(names))  # John
+print(next(names))  # Sara
+print(next(names))  # Mike
+print(next(names))  # Molly
+
+# 9 true value
+# Code to check 'True' keyword
+if True:
+    print("True")
+    print("----")
+
+print(bool(10)) # True
+
+
+
+# 10 false value
+# Code to check 'false' keyword
+if True:
+    print("False")
+
+print(bool()) # False
+print(bool()) # False
+print(bool([])) # False
+print(bool({})) # False
+print(bool(None))# False
