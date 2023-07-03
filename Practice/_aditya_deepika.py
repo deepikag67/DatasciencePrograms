@@ -73,6 +73,7 @@ heart.hideturtle()
 # Exit on click
 turtle.done()
 
+# Aditya love Deepika
 
 
 
