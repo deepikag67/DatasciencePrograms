@@ -25,34 +25,62 @@ print('\u2764')
 print('\u2764')
 
 
-import math
 import turtle
 
-turtle.shape("turtle")
-turtle.setup(width=900, height=700)
-turtle.speed(0)
-turtle.bgcolor('black')
-turtle.color('red')
+# Set up the turtle screen
+screen = turtle.Screen()
+screen.title("Happy Journey!")
+screen.bgcolor("white")
+screen.setup(width=800, height=600)
 
-def heart1(h):
-    return 15 * math.sin(h) ** 3
+# Create the turtle object
+heart = turtle.Turtle()
+heart.shape("turtle")
+heart.color("red")
+heart.speed(2)
 
-def heart2(h):
-    return 12 * math.cos(h) - 5 * math.cos(2 * h) - 2 * math.cos(3 * h) - math.cos(4 * h)
+# Move the turtle to the starting position
+heart.penup()
+heart.goto(0, -200)
+heart.pendown()
 
+# Draw the heart shape
+heart.begin_fill()
+heart.left(140)
+heart.forward(224)
+for _ in range(200):
+    heart.right(1)
+    heart.forward(2)
+heart.left(120)
+for _ in range(200):
+    heart.right(1)
+    heart.forward(2)
+heart.forward(224)
+heart.end_fill()
 
+# Move the turtle to the text position
+heart.penup()
+heart.goto(0, 0)
+heart.pendown()
 
-for i in range(600):
-    x, y = heart1(i) * 20, heart2(i) * 20
-    turtle.goto(x, y)
+# Write the text message
+heart.color("black")
+heart.write("Happy Journey Baby i pray ur all wish come true in this trip!", align="center", font=("Arial", 10, "bold"))
 
-# Draw "I Love You" in the center
-turtle.penup()
-turtle.goto(0, -45)
-turtle.pendown()
-turtle.write('I Love You', align='center', font=('Arial', 50, 'bold'))
+# Hide the turtle
+heart.hideturtle()
 
+# Exit on click
 turtle.done()
+
+# Aditya love Deepika
+
+
+
+
+
+
+
 
 
 
