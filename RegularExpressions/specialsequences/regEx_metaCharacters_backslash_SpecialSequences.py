@@ -14,7 +14,7 @@ s = "Deepika@DESKTOP-V34C1IL7"
 f = re.findall("\D", s)
 print(f)
 
-#\s - Returns white space characters
+#\s - Returns white/empty space characters
 s = "Deepika@ DESKTO P-V34C 1IL7"
 f = re.findall("\s", s)
 print(f)

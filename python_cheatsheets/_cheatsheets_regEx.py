@@ -51,3 +51,25 @@ print(b)
 
 
 
+z = "This is a String with special characters !@#$%^&&&&&()()()()"
+x = re.findall("[&]", z)  # Used Square brackets
+print(x)
+
+
+z = "This is a string\nThis is a string"
+#x = re.findall("\n") # Backslash
+print(z)
+
+# Identify the numbers in the string - \d
+# Identify the alphabets & special characters together in a string - \D
+# Identify the empty spaces in a string - \s
+#
+
+
+sourcefile = open("C://Technology//DevOps//Steps//aditya.txt", "w")
+print("Hello", file=sourcefile)
+sourcefile.close()
+
+
+with open("C://Technology//DevOps//Steps//aditya.txt", "w") as file:
+    file.write('Hello World!')
