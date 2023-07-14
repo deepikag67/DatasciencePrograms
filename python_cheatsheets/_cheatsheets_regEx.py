@@ -274,4 +274,53 @@ print(bool()) # False
 print(bool([])) # False
 print(bool({})) # False
 print(bool(None))# False
->>>>>>> e7b7bdaf4a60912b9cb5810a72a98906b3d6085b
+
+
+# Local variable
+
+def greet():
+    # local variable
+    message = 'Hello'
+    print('Local', message)
+greet()
+# try to access message variable
+# outside greet() function
+print(message)
+
+
+# declare global variable
+message = 'Hello'
+
+def greet():
+    # declare local variable
+    print('Local', message)
+
+greet()
+print('Global', message)
+
+
+# outside function
+def outer():
+    message = 'local'
+
+    # nested function
+    def inner():
+
+        # declare nonlocal variable
+        nonlocal message
+
+        message = 'nonlocal'
+        print("inner:", message)
+
+    inner()
+    print("outer:", message)
+
+outer()
+
+
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
